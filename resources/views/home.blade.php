@@ -55,7 +55,7 @@ section {
 /* Hero Section Styling */
 .hero-section {
     position: relative;
-    background-image: url('/images/WhatsApp Image 2025-09-18 at 1.37.26 AM (1).jpeg');
+    background-image: url('/images/dashboard_1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -249,9 +249,9 @@ section {
     /* Force all timeline items into a vertical stack */
     .timeline-item {
         flex-direction: column;
-        align-items: center; /* Center the image and text card */
+        align-items: center; 
         text-align: center;
-        margin-bottom: 50px; /* Add space between each item */
+        margin-bottom: 50px; 
     }
 
     /* Reset the margins on the image circle */
@@ -260,10 +260,10 @@ section {
         margin-bottom: 20px !important;
     }
 
-    /* Make the text card full width and center its text */
+  
     .timeline-text {
-        width: 100%; /* Make it fill the available space */
-        margin: 0 !important; /* Remove any left/right margins */
+        width: 100%; 
+        margin: 0 !important; 
         text-align: center !important;
     }
 
@@ -311,7 +311,7 @@ transition: transform 0.5s ease-in-out;
 }
 .card-body {
 padding: 25px;
-flex-grow: 1; /* يجعل هذا الجزء يملأ المساحة المتاحة */
+flex-grow: 1; 
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -358,7 +358,6 @@ color: #e0e0e0;
     background-color: var(--light-bg);
 }
 
-/* New Instructor Card Style (matches course-card) */
 /* Instructor Section Styling */
 .instructor-section {
     background-color: var(--light-bg);
@@ -604,7 +603,7 @@ color: #e0e0e0;
     <div class="col-md-4 mb-4">
         <div class="course-card">
             <div class="course-image">
-                <img src="/images/images (1).jpeg" alt="Data Science Course" class="img-fluid">
+                <img src="/images/images (1).jpg" alt="Data Science Course" class="img-fluid">
             </div>
             <div class="card-body">
                 <h5>Data Science with Python</h5>
@@ -622,7 +621,7 @@ color: #e0e0e0;
     <div class="col-md-4 mb-4">
         <div class="course-card">
             <div class="course-image">
-                <img src="/images/graphics-design-mastercla-selar.co-62eb528d2c0be.jpeg" alt="Graphic Design Course" class="img-fluid">
+                <img src="/images/graphics-design-mastercla-selar.co-62eb528d2c0be.jpg" alt="Graphic Design Course" class="img-fluid">
             </div>
             <div class="card-body">
                 <h5>Graphic Design Masterclass</h5>

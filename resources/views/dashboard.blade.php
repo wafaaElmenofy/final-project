@@ -7,7 +7,14 @@
         {{-- ================= STUDENT VIEW ================= --}}
         @if($role === 'student')
             <!-- Hero Section -->
-            <section class="hero-section d-flex align-items-center justify-content-center text-white" style="min-height: 60vh; background: linear-gradient(135deg, #0d6efd, #023c6e);">
+<section class="hero-section d-flex align-items-center justify-content-center text-white"
+         style="
+            min-height: 60vh; 
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                        url('/images/dashboard_2.jpg') no-repeat top right; 
+            background-size: cover;
+            background-position: top right;">
+
                 <div class="text-center animate__animated animate__fadeInDown">
                     <h1 class="fw-bold mb-3 display-4">Welcome, {{ $user->name }}</h1>
                     <p class="lead fs-4">Nice to see you again 👋</p>
