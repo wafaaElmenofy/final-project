@@ -11,7 +11,7 @@
                 <div class="text-center animate__animated animate__fadeInDown">
                     <h1 class="fw-bold mb-3 display-4">Welcome, {{ $user->name }}</h1>
                     <p class="lead fs-4">Nice to see you again 👋</p>
-                    <a href="{{ route('courses.index') }}" class="btn btn-light btn-lg mt-3 animate__animated animate__pulse">Explore Courses</a>
+                    <a href="{{ route('enrollment.index') }}" class="btn btn-light btn-lg mt-3 animate__animated animate__pulse">Explore Courses</a>
                 </div>
             </section>
 

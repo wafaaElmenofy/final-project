@@ -246,7 +246,7 @@
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item"><a class="nav-link" href="/#hero" id="home-link">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/#about" id="about-link">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('courses.index') }}" id="courses-link">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('enrollment.index') }}" id="courses-link">Courses</a></li>
                 <li class="nav-item"><a class="nav-link" href="/#instructor" id="instructor-link">Instructor</a></li>
                 <li class="nav-item"><a class="nav-link" href="/#contact" id="contact-link">Contact</a></li>
             </ul>
