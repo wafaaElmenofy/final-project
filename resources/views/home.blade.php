@@ -532,7 +532,7 @@ color: #e0e0e0;
 
         <div class="timeline-item timeline-left">
             <div class="timeline-content">
-                <img src="/images/d6.png" class="timeline-image" alt="Our Journey">
+                <img src="{{ asset('images/d6.jpeg') }}" class="timeline-image" alt="Our Journey">
             </div>
             <div class="timeline-text">
                 <h3>What is Emerge Academy?</h3>
@@ -543,7 +543,7 @@ color: #e0e0e0;
 
         <div class="timeline-item timeline-right">
             <div class="timeline-content">
-                <img src="/images/images.jpeg" class="timeline-image" alt="Transition to Full Service">
+                <img src="{{ asset('images/images.jpeg') }}" class="timeline-image" alt="Transition to Full Service">
             </div>
             <div class="timeline-text" id="timeline-text-2">
                 <h3>What Makes Emerge Academy Different?</h3>
@@ -554,7 +554,7 @@ color: #e0e0e0;
 
         <div class="timeline-item timeline-left">
             <div class="timeline-content">
-                <img src="/images/download.jpeg" class="timeline-image" alt="Phase Two Expansion">
+                <img src="{{ asset('images/download.jpeg') }}" class="timeline-image" alt="Phase Two Expansion">
             </div>
             <div class="timeline-text">
                 <h3>What's the Secret to Our Outstanding Learning Experience?</h3>
@@ -583,7 +583,7 @@ color: #e0e0e0;
         <div class="course-card">
 
         <div class="course-image">
-            <img src="/images/course_1663052056.jpg" alt="Web Development Course" class="img-fluid">
+            <img src="{{ asset('images/course_1663052056.jpeg') }}" alt="Web Development Course" class="img-fluid">
         </div>
         <div class="card-body">
             <h5>Web Development Fundamentals</h5>
@@ -603,7 +603,7 @@ color: #e0e0e0;
     <div class="col-md-4 mb-4">
         <div class="course-card">
             <div class="course-image">
-                <img src="/images/images (1).jpg" alt="Data Science Course" class="img-fluid">
+                <img src="{{ asset('images/images (1).jpeg') }}" alt="Data Science Course" class="img-fluid">
             </div>
             <div class="card-body">
                 <h5>Data Science with Python</h5>
@@ -621,7 +621,7 @@ color: #e0e0e0;
     <div class="col-md-4 mb-4">
         <div class="course-card">
             <div class="course-image">
-                <img src="/images/graphics-design-mastercla-selar.co-62eb528d2c0be.jpg" alt="Graphic Design Course" class="img-fluid">
+                <img src="/images/graphics-design-mastercla-selar.co-62eb528d2c0be.jpeg" alt="Graphic Design Course" class="img-fluid">
             </div>
             <div class="card-body">
                 <h5>Graphic Design Masterclass</h5>
@@ -656,7 +656,7 @@ color: #e0e0e0;
             <div class="col-md-4 mb-4">
                 <div class="instructor-card-new">
                     <div class="card-image">
-                        <img src="/images/17fa44e8d7f0d4a341f078b6c94a31ef.jpg" alt="Instructor 1" class="img-fluid">
+                        <img src="/images/17fa44e8d7f0d4a341f078b6c94a31ef.jpeg" alt="Instructor 1" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <h5>Jane Doe</h5>
@@ -675,7 +675,7 @@ color: #e0e0e0;
             <div class="col-md-4 mb-4">
                 <div class="instructor-card-new">
                     <div class="card-image">
-                        <img src="/images/portrait-young-teacher-near-whiteboard-260nw-1656704701.webp" alt="Instructor 2" class="img-fluid">
+                        <img src="/images/portrait-young-teacher-near-whiteboard-260nw-1656704701.jpeg" alt="Instructor 2" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <h5>John Smith</h5>
@@ -694,7 +694,7 @@ color: #e0e0e0;
             <div class="col-md-4 mb-4">
                 <div class="instructor-card-new">
                     <div class="card-image">
-                        <img src="/images/young-happy-business-woman-sitting-260nw-2223351415.webp" alt="Instructor 3" class="img-fluid">
+                        <img src="/images/young-happy-business-woman-sitting-260nw-2223351415.jpeg" alt="Instructor 3" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <h5>Emily White</h5>

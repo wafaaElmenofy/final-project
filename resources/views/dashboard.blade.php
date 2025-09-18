@@ -84,13 +84,20 @@
 
             {{-- ================= INSTRUCTOR VIEW ================= --}}
         @elseif($role === 'instructor')
-            <section class="hero-section d-flex align-items-center justify-content-center text-white" style="min-height: 50vh; background: linear-gradient(135deg, #198754, #0d6efd);">
-                <div class="text-center animate__animated animate__fadeInDown">
-                    <h1 class="fw-bold mb-3 display-4">Welcome, {{ $user->name }}</h1>
-                    <p class="lead fs-4">Here are your current courses</p>
-                    <a href="{{ route('courses.create') }}" class="btn btn-light btn-lg mt-3 animate__animated animate__pulse">Add New Course</a>
-                </div>
-            </section>
+<section class="hero-section d-flex align-items-center justify-content-center text-white"
+         style="min-height: 70vh; 
+                background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.2)),
+                           url('/images/your-image.jpeg') no-repeat top center; 
+                background-size: 130% auto; 
+                background-position: top center;">
+    <div class="text-center animate__animated animate__fadeInDown">
+        <h1 class="fw-bold mb-3 display-4">Welcome, {{ $user->name }}</h1>
+        <p class="lead fs-4">Here are your current courses</p>
+        <a href="{{ route('courses.create') }}" class="btn btn-light btn-lg mt-3 animate__animated animate__pulse">Add New Course</a>
+    </div>
+</section>
+
+
 
             <section class="container py-5">
                 <h2 class="section-title animate__animated animate__fadeIn">📚 Your Courses</h2>

@@ -16,6 +16,8 @@ class EnrollmentController extends Controller
         $user_id = Session::get('user_id');
         $user = User::find($user_id);
 
+        // dd($user_id, $user);
+
         if (!$user) {
             return redirect('/login')->with('error', 'يجب تسجيل الدخول أولاً.');
         }
